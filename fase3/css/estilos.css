@@ -1,0 +1,25 @@
+header{
+    background-color:rgb(247, 158, 224);
+}
+nav{
+    background-color:rgb(243, 155, 231);
+}
+section{
+    width: 70%;
+    float: left;
+    background-color:rgb(189, 209, 230);
+}
+footer{
+    background-color:black;
+    color: blanchedalmond;
+}
+aside{
+    width: 30%;
+    float:left;
+    background-color:rgb(156, 171, 180) ;
+}
+.contenido::after{
+    content: "";
+    display: block;
+    clear: both;
+}
